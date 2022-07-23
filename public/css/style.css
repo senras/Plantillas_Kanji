@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 55.5%;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(221, 218, 218);
+	width: 65%;
+	margin: auto;
+}
+
+.main-head {
+	margin: auto;
+	color: white;
+	position: sticky;
+	top: 0px;
+	z-index: 3;
+	background-color: rgb(56, 56, 56);
+}
+
+nav {
+	width: 95%;
+	display: flex;
+	margin: auto;
+	padding: 2rem;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: 10vh;
+}
+
+nav ul {
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+#logo {
+	flex: 2 1 40rem;
+	color: whitesmoke;
+	font-weight: 400;
+}
+
+main {
+	min-height: 90vh;
+	background-color: whitesmoke;
+}
+
+.main-content {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#instruction {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 2rem;
+	margin-top: 5rem;
+}
+
+#japaneseinput {
+	margin-top: 1rem;
+	width: 85%;
+	min-height: 20vh;
+	background-color: whitesmoke;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 4.8rem;
+}
+
+h3 {
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+h4,
+h5 {
+	font-size: 2.8rem;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
